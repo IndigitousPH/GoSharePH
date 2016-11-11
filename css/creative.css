@@ -98,7 +98,7 @@ aside {
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #2aa9ea !important;
+  /*color: #2aa9ea !important;*/
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -287,6 +287,10 @@ header .header-content .header-content-inner p {
   padding-right: 0;
   padding-left: 0;
 }
+.btn {
+  margin:10px 0;
+}
+
 .btn-default {
   color: #222222;
   background-color: white;
@@ -439,3 +443,30 @@ body {
   color: #fff;
 }
 
+/* Fun */
+.fun-img {
+  margin-bottom: 20px;
+}
+
+.fun-nav {
+  margin-bottom: 20px;
+}
+
+.fun-nav a {
+  padding: 20px 10px;
+  min-width: 120px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.fun-nav a.active {
+  background: #ff0048;
+}
+
+.btn-border {
+  padding: 15px 20px;
+  border: 1px solid #fff;
+}
